@@ -1,0 +1,114 @@
+a {
+        color: #10b6db;
+        text-decoration: underline;
+      }
+      a:hover {
+        text-decoration: none;
+        cursor: pointer;
+        font-style: italic;
+      }
+      body {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        text-align: left;
+        background: #f7f7f7;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/362/original/524-5247118_painted-fantasy-pattern-elements-little-prince-wallpaper-png.png?1614265993");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        padding-right: 30%;
+      }
+
+      button {
+        border: none;
+        background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/428/original/starbutton2_%281%29.png?1614509397);
+        display: inline-block;
+
+        margin: auto;
+        width: 120px;
+        height: 120px;
+      }
+      div {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 30px 0 0 0;
+        text-shadow: 2px 2px #c5c5c5;
+      }
+      h2 {
+        text-align: center;
+        text-shadow: 2px 2px #c5c5c5;
+      }
+      h3 {
+        text-align: center;
+        max-width: 60%;
+        margin: auto;
+        background-color: #f7f7f7;
+        padding: 20px;
+      }
+      hr {
+        height: 1px;
+        max-width: 60%;
+        background-color: #10b6db;
+        border: none;
+      }
+      li {
+        display: block;
+        margin: 20px auto;
+        line-height: 18px;
+        padding: 16px 10px;
+        max-width: 45%;
+        text-align: center;
+        background-color: #f7f7f7;
+        border-radius: 4px;
+        box-shadow: 1px 2px 5px rgb(37 39 89 / 8%);
+        transition: 150ms ease-in-out;
+      }
+
+      li:hover {
+        font-weight: bolder;
+
+        background-color: rgb(148, 239, 247, 0.2);
+      }
+      p {
+        max-width: 60%;
+        text-align: center;
+        margin: auto;
+        background-color: #f7f7f7;
+      }
+
+      ul {
+        list-style: none;
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+      }
+      .findOutMore {
+        padding: 20px;
+      }
+      .fox {
+        transition: 150ms ease-in-out;
+      }
+      .fox:hover {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/431/original/fox_%281%29.png?1614510233);
+        background-size: cover;
+        cursor: pointer;
+      }
+      .lamb {
+        transition: 150ms ease-in;
+      }
+
+      .lamb:hover {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/430/original/lamb.png?1614510017);
+        background-size: cover;
+        cursor: pointer;
+      }
+      .rose {
+        transition: 150ms ease-in;
+      }
+      .rose:hover {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/429/original/rose_%281%29.png?1614509459);
+        background-size: cover;
+        cursor: pointer;
+      }
